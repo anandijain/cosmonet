@@ -1,0 +1,12 @@
+astropy
+numpy
+matplotlib
+bokeh
+seaborn
+esutils
+keras
+logging
+sklearn
+matplotlib
+json
+subprocess
