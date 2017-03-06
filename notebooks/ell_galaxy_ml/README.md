@@ -1,11 +1,13 @@
-### Data Preparation for the Tutorial
+## Predicting the Ellipticity of galaxies Utilizing CNN
+This is a Tutorial on how to use cnn to predict the ellipticity of given images of galaxies. 
 
-- Create Catalogs
-```python
-python create_cats.py > parameters.dat
-```
+### Dependence
+- python, numpy, matplotlib
+- Theano, Lasagne
+- CUDA7.5, cuDNN
 
-- Create Images
-```python
-python create_sims.py
-```
+### Basic Steps
+- Generate a set of images as training set
+- Create a CNN
+- Train the CNN using the simulated images
+- Input simulated images to the trained model for testing
